@@ -1,6 +1,7 @@
 //1以上の数字
-let num = 4;
+let num = 2;
 console.log(num);
+
 
 //変数(num)が３と５の倍数の場合：”３と5の倍数です”
 if (num % 3 === 0 && num % 5 ===0) {
@@ -15,6 +16,7 @@ else if (num % 3 === 0) {
 else if (num % 5 ===0) {
   console.log('5の倍数です');
 }
+
 else {
-  console.log("num");
+  console.log('num');
 }
